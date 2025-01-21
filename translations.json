@@ -1,0 +1,162 @@
+{
+  "Cannot find name '{variable}'": {
+    "Yoruba": "A ko le ri oruko '{variable}'.",
+    "Pidgin": "We no fit find '{variable}'.",
+    "SimpleEnglish": "'{variable}' is not defined."
+  },
+  "Expected {min}-{max} arguments, but got {received}": {
+    "Yoruba": "A reti {min}-{max} awọn ọrọ, ṣugbọn o fun ni {received}.",
+    "Pidgin": "Dem dey expect {min}-{max} argument, but you give {received}.",
+    "SimpleEnglish": "Expected {min}-{max} arguments, but received {received}."
+  },
+  "Expected {args} arguments, but got {received}.": {
+    "Yoruba": "A reti {args} awọn ọrọ, ṣugbọn o gba {received}.",
+    "Pidgin": "Dem dey expect {args} argument, but you give {received}.",
+    "SimpleEnglish": "Expected {args} arguments, but received {received}."
+  },
+  "Property '{property}' does not exist on type '{type}'": {
+    "Yoruba": "Ẹ̀ka '{property}' ko wa lori iru '{type}'.",
+    "Pidgin": "Property '{property}' no dey for type '{type}'.",
+    "SimpleEnglish": "Property '{property}' does not exist on type '{type}'."
+  },
+  "Type '{actual}' is not assignable to type '{expected}'": {
+    "Yoruba": "Iru '{actual}' ko le niyanju si iru '{expected}'.",
+    "Pidgin": "Type '{actual}' no fit match '{expected}'.",
+    "SimpleEnglish": "Type '{actual}' is not assignable to type '{expected}'."
+  },
+  "Argument of type '{type}' is not assignable to parameter of type '{expected}'": {
+    "Yoruba": "Ọrọ ti iru '{type}' ko le baamu paramita ti iru '{expected}'.",
+    "Pidgin": "Argument wey be '{type}' no fit enter parameter wey be '{expected}'.",
+    "SimpleEnglish": "Argument of type '{type}' is not assignable to parameter of type '{expected}'."
+  },
+  "Function lacks ending return statement and return type does not include 'undefined'": {
+    "Yoruba": "Iṣẹ naa ko ni ọrọ ipadabọ ati iru ipadabọ ko pẹlu 'undefined'.",
+    "Pidgin": "The function no get ending return statement, and e no include 'undefined' as return type.",
+    "SimpleEnglish": "Function lacks an ending return statement, and the return type does not include 'undefined'."
+  },
+  "Cannot find module '{module}' or its corresponding type declarations": {
+    "Yoruba": "A ko le ri module '{module}' tabi awọn akọsilẹ iru rẹ̀ to baamu.",
+    "Pidgin": "We no fit find module '{module}' or the type declarations wey follow am.",
+    "SimpleEnglish": "Cannot find module '{module}' or its corresponding type declarations."
+  },
+  "Unexpected token '{token}'": {
+    "Yoruba": "Aṣiṣe naa sọ pé token '{token}' ko yẹ ki o wa nibi.",
+    "Pidgin": "Syntax error! Token '{token}' no suppose dey here.",
+    "SimpleEnglish": "Unexpected token '{token}'."
+  },
+  "Cannot assign to '{variable}' because it is a constant": {
+    "Yoruba": "O ko le fun '{variable}' ni iye tuntun nitori o jẹ iduro.",
+    "Pidgin": "You no fit assign new value to '{variable}' because e be constant, he no fit change again.",
+    "SimpleEnglish": "Cannot assign a new value to '{variable}' because it is a constant."
+  },
+  "Variable '{variable}' is used before being assigned": {
+    "Yoruba": "A lo '{variable}' ṣaaju ki a to fun ni iye.",
+    "Pidgin": "Variable '{variable}' don dey use before dem give am value.",
+    "SimpleEnglish": "Variable '{variable}' is used before being assigned."
+  },
+  "Object literal may only specify known properties, and '{property}' does not exist in type '{type}'.": {
+    "Yoruba": "Ohun ti o wa ninu ohun kan le ni awọn ohun-ini ti a mọ nikan, ati '{property}' ko si ninu iru '{type}'.",
+    "Pidgin": "Object fit only get properties wey dem sabi, but '{property}' no dey for type '{type}'.",
+    "SimpleEnglish": "The object can only include known properties, but '{property}' is not part of the type '{type}'."
+  },
+  "Cannot find name '{variable}'.": {
+    "Yoruba": "A ko le ri oruko '{variable}'. Ṣayẹwo boya o ti sọkalẹ tabi pe o wa.",
+    "Pidgin": "We no fit find '{variable}'. E check say you declare am or write am correct.",
+    "SimpleEnglish": "Cannot find the name '{variable}'. Check if it’s declared or typed correctly."
+  },
+  "Property '{property}' does not exist on type '{type}'.": {
+    "Yoruba": "Ohun-ini '{property}' ko si lori iru '{type}'. Ṣayẹwo boya o wa ni pato.",
+    "Pidgin": "Property '{property}' no dey inside '{type}'. E sure say e suppose dey?",
+    "SimpleEnglish": "The property '{property}' does not exist on the type '{type}'. Double-check its definition."
+  },
+  "Argument of type '{argument}' is not assignable to parameter of type '{parameter}'.": {
+    "Yoruba": "Ero irisi '{argument}' ko le ba iru '{parameter}' mu. Ṣayẹwo awọn iru naa.",
+    "Pidgin": "Argument wey be '{argument}' no fit match '{parameter}'. Check their types.",
+    "SimpleEnglish": "The argument of type '{argument}' cannot be assigned to parameter of type '{parameter}'. Verify their types."
+  },
+  "Type '{type1}' is not assignable to type '{type2}'.": {
+    "Yoruba": "Iru '{type1}' ko le ba iru '{type2}' mu. Ṣayẹwo awọn ohun-ini wọn.",
+    "Pidgin": "Type '{type1}' no fit match '{type2}'. E sure say dem go together?",
+    "SimpleEnglish": "The type '{type1}' cannot be assigned to type '{type2}'. Check compatibility."
+  },
+  "Cannot access '{variable}' before initialization.": {
+    "Yoruba": "A ko le wọle si '{variable}' ṣaaju ki o to ṣe atilẹyin.",
+    "Pidgin": "You wan use '{variable}' before you declare am. No be so e suppose be.",
+    "SimpleEnglish": "You cannot use '{variable}' before it is initialized. Declare it first."
+  },
+  "Function lacks ending return statement and return type does not include 'undefined'.": {
+    "Yoruba": "Iṣe ko ni gbolohun ipadabọ opin ati iru ipadabọ ko pẹlu 'undefined'.",
+    "Pidgin": "Function no get return at the end. Make sure e include 'undefined' or return something.",
+    "SimpleEnglish": "The function lacks a return statement at the end, and its return type doesn't include 'undefined'."
+  },
+  "Unexpected token '{token}'.": {
+    "Yoruba": "Aṣiṣe! A ko reti token '{token}'. Ṣayẹwo koodu naa.",
+    "Pidgin": "Token wey be '{token}' no suppose dey here. E sure say your syntax correct?",
+    "SimpleEnglish": "Unexpected token '{token}'. Check the code syntax."
+  },
+  "Cannot read property '{property}' of undefined.": {
+    "Yoruba": "A ko le ka ohun-ini '{property}' ti undefined. Ṣayẹwo o.",
+    "Pidgin": "You wan read '{property}' but e no dey exist (undefined).",
+    "SimpleEnglish": "Cannot read the property '{property}' of undefined. Verify the object."
+  },
+  "Class '{className}' incorrectly implements interface '{interfaceName}'.": {
+    "Yoruba": "Kilasi '{className}' ko ba ara ṣiṣẹ pẹlu wiwo '{interfaceName}'. Ṣayẹwo isopọ naa.",
+    "Pidgin": "Class '{className}' no follow the interface '{interfaceName}' rules well.",
+    "SimpleEnglish": "Class '{className}' doesn't correctly implement the interface '{interfaceName}'. Check its implementation."
+  },
+  "A 'return' statement can only be used within a function body.": {
+    "Yoruba": "Gbolohun 'return' le ṣee lo nikan laarin ara iṣẹ.",
+    "Pidgin": "'Return' fit only dey inside function body. No put am outside.",
+    "SimpleEnglish": "A 'return' statement can only be used inside a function body."
+  },
+  "'{variable}' is declared but its value is never read.": {
+    "Yoruba": "'{variable}' ti kede ṣugbọn iye rẹ ko tii ka rara.",
+    "Pidgin": "'{variable}' dey but you no use am anywhere.",
+    "SimpleEnglish": "'{variable}' is declared but never used."
+  },
+  "Type '{type}' is not a valid JSX element.": {
+    "Yoruba": "Iru '{type}' kii ṣe ohun JSX to wulo.",
+    "Pidgin": "'{type}' no be valid JSX element. Check am well.",
+    "SimpleEnglish": "Type '{type}' is not a valid JSX element."
+  },
+  "Variable '{variable}' is used before being assigned.": {
+    "Yoruba": "O ti lo '{variable}' ṣaaju ki o to fun ni iye kan.",
+    "Pidgin": "'{variable}' dey used before you assign value to am.",
+    "SimpleEnglish": "The variable '{variable}' is used before it has been assigned a value."
+  },
+  "This condition will always return '{value}' since the types '{type1}' and '{type2}' have no overlap.": {
+    "Yoruba": "Ọrọ naa yoo ma pada '{value}' nigbagbogbo nitori iru '{type1}' ati '{type2}' ko ba ara wọn mu.",
+    "Pidgin": "Condition go always return '{value}' because '{type1}' and '{type2}' no get anything in common.",
+    "SimpleEnglish": "This condition will always return '{value}' because '{type1}' and '{type2}' have no overlap."
+  },
+  "Argument of type '{type}' is not assignable to parameter of type 'never'.": {
+    "Yoruba": "Ero irisi '{type}' ko le ba paramita iru 'never' mu.",
+    "Pidgin": "'{type}' no fit match 'never'.",
+    "SimpleEnglish": "Argument of type '{type}' cannot be assigned to parameter of type 'never'."
+  },
+  "Cannot assign to '{variable}' because it is a constant.": {
+    "Yoruba": "A ko le fun '{variable}' ni iye tuntun nitori o jẹ iyipada to wa titi.",
+    "Pidgin": "You no fit assign new value to '{variable}' because na constant.",
+    "SimpleEnglish": "Cannot assign a new value to '{variable}' because it is a constant."
+  },
+  "Expected 0 arguments, but got {number}.": {
+    "Yoruba": "O ti reti 0 ero ṣugbọn o gba {number}.",
+    "Pidgin": "E suppose pass 0 arguments, but you pass {number}.",
+    "SimpleEnglish": "Expected 0 arguments, but got {number}."
+  },
+  "Cannot use namespace '{namespace}' as a value.": {
+    "Yoruba": "A ko le lo aaye orukọ '{namespace}' bi iye kan.",
+    "Pidgin": "Namespace '{namespace}' no fit be value.",
+    "SimpleEnglish": "Cannot use namespace '{namespace}' as a value."
+  },
+  "Function is missing a return type.": {
+    "Yoruba": "Iṣe ko ni iru ipadabọ.",
+    "Pidgin": "Function no get return type.",
+    "SimpleEnglish": "The function does not have a return type."
+  },
+  "The left-hand side of an assignment expression must be a variable.": {
+    "Yoruba": "Apa osi ti ọrọ pipin gbọdọ jẹ iyipada kan.",
+    "Pidgin": "The left side for assignment must be a variable.",
+    "SimpleEnglish": "The left-hand side of an assignment must be a variable."
+  }
+}
