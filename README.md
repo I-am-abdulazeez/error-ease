@@ -1,71 +1,90 @@
-# error-ease README
+# Error Ease README
 
-This is the README for your extension "error-ease". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Error Ease is a VS Code extension designed to simplify error messages by translating them into user-friendly versions in your preferred language. With support for Yoruba, Pidgin English, and Simple English, this extension makes programming errors easier to understand and resolve. By presenting errors in a familiar language or dialect, Error Ease bridges the gap between technical jargon and intuitive problem-solving, helping developers debug with confidence in their mother tongue.
 
 ---
 
-## Following extension guidelines
+## Features
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+- **Simplified Error Messages**: Converts cryptic JavaScript/TypeScript error messages into clear, understandable language.
+- **Multilingual Support**: Supports translations in Yoruba, Pidgin English, and Simple English.
+- **Hover Integration**: Automatically displays translated error messages when hovering over an error.
+- **Customizable Settings**: Users can select their preferred language in the extension settings.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+### Example
 
-## Working with Markdown
+**Original Error:**
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+```
+Expected 2 arguments, but got 3.
+```
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+**Translated (Pidgin):**
+
+```
+Dem dey expect 2 argument, but you give 3.
+```
+
+![Error Translation Example](images/example.png)
+
+---
+
+## Requirements
+
+- Visual Studio Code version 1.70.0 or later.
+
+---
+
+## Extension Settings
+
+This extension contributes the following settings:
+
+- `errorEase.language`: Sets the preferred language for error translations. Available options:
+  - `Yoruba`
+  - `Pidgin`
+  - `SimpleEnglish`
+
+To update the setting:
+
+1. Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).
+2. Search for "Preferences: Open Settings (JSON)".
+3. Add the following:
+
+```json
+{
+  "errorEase.language": "Pidgin"
+}
+```
+
+---
+
+## Known Issues
+
+- Some errors may not match exactly due to subtle differences in phrasing. Efforts are ongoing to improve matching accuracy.
+- Currently supports JavaScript/TypeScript errors only. Expanding to other languages in future updates.
+
+---
+
+## Release Notes
+
+### 1.0.0
+
+- Initial release of Error Ease.
+- Core functionality for JavaScript/TypeScript error translations.
+- Support for Yoruba, Pidgin English, and Simple English.
+- Hover-based error message translations.
+
+---
+
+## Following Extension Guidelines
+
+This extension adheres to the VS Code [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines).
+
+---
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy Error Ease! Simplify your debugging experience today!**
