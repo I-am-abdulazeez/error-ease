@@ -1,71 +1,42 @@
 import * as vscode from 'vscode';
-import * as fs from 'fs';
-import * as path from 'path';
 
 import { getHoverContent } from './hover-content';
 import { getSelectedLanguage } from './settings';
 
-import { Translation, Translations } from './types';
+import { matchErrorPattern } from './match-err-pattern';
 
 
 export function activate(context: vscode.ExtensionContext) {
-  // Load the translations.json file
-  const translationsPath = path.join(context.extensionPath, 'translations.json');
-  const translations = JSON.parse(fs.readFileSync(translationsPath, 'utf8')) as Translations;
+  let hoverProvider: vscode.Disposable | undefined;
 
-  const selectedLanguage = getSelectedLanguage();
-
-  function matchErrorPattern(errorMessage: string): string | null {
-    for (const pattern in translations) {
-      const regexPattern = pattern.replace(/{(.*?)}/g, (_, name) => `(?<${name}>.+?)`);
-      const regex = new RegExp(regexPattern);
-
-      const match = regex.exec(errorMessage);
-
-      if (match) {
-        const translation = translations[pattern][selectedLanguage];
-        let formattedTranslation = translation;
-
-        const placeholders = pattern.match(/{.*?}/g) || [];
-
-        // Replace placeholders in translation with matched values
-        placeholders.forEach((placeholder) => {
-          const name = placeholder.replace(/[{}]/g, "");
-          const value = match?.groups?.[name] || "unknown";
-
-          formattedTranslation = formattedTranslation.replace(placeholder, value);
-        });
-
-        return formattedTranslation;
-      }
+  function registerHoverProvider() {
+    if (hoverProvider) {
+      hoverProvider.dispose(); // Dispose the old provider, when the language is changed -- Be like refresh
     }
 
-    return null;
+    // If you want to contribute, you can add more languages here, translations.json file, types.ts file, settings.ts file and package.json file.
+    hoverProvider = vscode.languages.registerHoverProvider(['typescript', 'javascript'], {
+      provideHover(document, position) {
+        const selectedLanguage = getSelectedLanguage();
+        const diagnostics = vscode.languages.getDiagnostics(document.uri);
+        const diagnostic = diagnostics.find((diag) => diag.range.contains(position));
+
+        if (diagnostic) {
+          const errorMessage = diagnostic.message;
+          const translatedMessage = matchErrorPattern(errorMessage, selectedLanguage, context);
+
+          if (translatedMessage) {
+            return new vscode.Hover(getHoverContent(translatedMessage));
+          }
+        }
+        return undefined;
+      },
+    });
+
+    context.subscriptions.push(hoverProvider);
   }
 
-
-
-
-  // Hover Provider logic
-  const hoverProvider = vscode.languages.registerHoverProvider(['typescript', 'javascript'], {
-    provideHover(document, position, token) {
-      // Get the diagnostics at the current position. Meaning the error message from current the Vscode user.
-      const diagnostics = vscode.languages.getDiagnostics(document.uri);
-      const diagnostic = diagnostics.find((diag) => diag.range.contains(position));
-
-      if (diagnostic) {
-        const errorMessage = diagnostic.message;
-        const translatedMessage = matchErrorPattern(errorMessage);
-
-        if (translatedMessage) {
-          return new vscode.Hover(getHoverContent(translatedMessage));
-        }
-      }
-      return undefined;
-    },
-  });
-
-  context.subscriptions.push(hoverProvider);
+  registerHoverProvider();
 }
 
 
