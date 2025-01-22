@@ -1,4 +1,4 @@
-type Translation = {
+export type Translation = {
   Yoruba: string;
   Pidgin: string;
   SimpleEnglish: string;
