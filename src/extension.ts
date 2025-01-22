@@ -3,7 +3,9 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 import { getHoverContent } from './hover-content';
-import { Translations } from './types';
+import { getSelectedLanguage } from './settings';
+
+import { Translation, Translations } from './types';
 
 
 export function activate(context: vscode.ExtensionContext) {
@@ -11,20 +13,19 @@ export function activate(context: vscode.ExtensionContext) {
   const translationsPath = path.join(context.extensionPath, 'translations.json');
   const translations = JSON.parse(fs.readFileSync(translationsPath, 'utf8')) as Translations;
 
-  // Match the error message with the translations
+  const selectedLanguage = getSelectedLanguage();
+
   function matchErrorPattern(errorMessage: string): string | null {
     for (const pattern in translations) {
-      // Replace placeholders in the pattern with named capture groups - AI generated this shit Regex,
       const regexPattern = pattern.replace(/{(.*?)}/g, (_, name) => `(?<${name}>.+?)`);
       const regex = new RegExp(regexPattern);
 
       const match = regex.exec(errorMessage);
 
       if (match) {
-        const translation = translations[pattern].Pidgin;
+        const translation = translations[pattern][selectedLanguage];
         let formattedTranslation = translation;
 
-        // Extract placeholders from the pattern
         const placeholders = pattern.match(/{.*?}/g) || [];
 
         // Replace placeholders in translation with matched values
@@ -41,6 +42,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     return null;
   }
+
 
 
 
@@ -65,6 +67,17 @@ export function activate(context: vscode.ExtensionContext) {
 
   context.subscriptions.push(hoverProvider);
 }
+
+
+vscode.workspace.onDidChangeConfiguration((event) => {
+  if (event.affectsConfiguration("errorEase.language")) {
+    const selectedLanguage = vscode.workspace
+      .getConfiguration("errorEase")
+      .get<string>("language", "SimpleEnglish");
+    console.log(`Language changed to: ${selectedLanguage}`);
+  }
+});
+
 
 // deactivate function - called when the extension is deactivated
 export function deactivate() { }
