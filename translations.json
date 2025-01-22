@@ -158,5 +158,315 @@
     "Yoruba": "Apa osi ti ọrọ pipin gbọdọ jẹ iyipada kan.",
     "Pidgin": "The left side for assignment must be a variable.",
     "SimpleEnglish": "The left-hand side of an assignment must be a variable."
+  },
+  "Duplicate identifier '{variable}'.": {
+    "Yoruba": "A ti ri oruko '{variable}' lẹẹmeji.",
+    "Pidgin": "You don use '{variable}' two times.",
+    "SimpleEnglish": "'{variable}' is declared more than once."
+  },
+  "Type '{type}' has no call signatures.": {
+    "Yoruba": "Iru '{type}' ko ni awọn aami ipe.",
+    "Pidgin": "Type '{type}' no fit be called like function.",
+    "SimpleEnglish": "Type '{type}' cannot be called like a function."
+  },
+  "Cannot redeclare block-scoped variable '{variable}'.": {
+    "Yoruba": "A ko le tun ṣe atẹjade iyipada '{variable}' ti o wa ni agbegbe yii.",
+    "Pidgin": "You no fit declare '{variable}' again for this block.",
+    "SimpleEnglish": "Cannot redeclare the block-scoped variable '{variable}'."
+  },
+  "Module '{module}' has no default export.": {
+    "Yoruba": "Module '{module}' ko ni ohun ti a nṣe atẹjade aṣaaju.",
+    "Pidgin": "Module '{module}' no get default export.",
+    "SimpleEnglish": "Module '{module}' does not have a default export."
+  },
+  "Operator '{operator}' cannot be applied to types '{type1}' and '{type2}'.": {
+    "Yoruba": "A ko le lo oniṣẹ '{operator}' lori awọn iru '{type1}' ati '{type2}'.",
+    "Pidgin": "Operator '{operator}' no fit work with '{type1}' and '{type2}'.",
+    "SimpleEnglish": "Operator '{operator}' cannot be used with types '{type1}' and '{type2}'."
+  },
+  "Type '{type}' is missing the following properties: {properties}.": {
+    "Yoruba": "Iru '{type}' ko ni awọn ohun-ini wọnyi: {properties}.",
+    "Pidgin": "Type '{type}' no get these properties: {properties}.",
+    "SimpleEnglish": "Type '{type}' is missing these properties: {properties}."
+  },
+  "A function whose declared type is neither 'void' nor 'any' must return a value.": {
+    "Yoruba": "Iṣẹ ti iru rẹ ko jẹ 'void' tabi 'any' gbọdọ pada pẹlu iye kan.",
+    "Pidgin": "Function wey no be 'void' or 'any' must return something.",
+    "SimpleEnglish": "A function that isn't 'void' or 'any' must return a value."
+  },
+  "An async function or method must return a 'Promise'.": {
+    "Yoruba": "Iṣẹ async tabi ọna gbọdọ pada pẹlu 'Promise'.",
+    "Pidgin": "Async function must return 'Promise'.",
+    "SimpleEnglish": "An async function must return a 'Promise'."
+  },
+  "Type '{type}' is not an array type.": {
+    "Yoruba": "Iru '{type}' kii ṣe iru akojọ.",
+    "Pidgin": "Type '{type}' no be array.",
+    "SimpleEnglish": "Type '{type}' is not an array."
+  },
+  "Cannot use 'new' with an expression whose type lacks a call or construct signature.": {
+    "Yoruba": "A ko le lo 'new' pẹlu ọrọ ti iru rẹ ko ni aami ipe tabi ṣiṣe.",
+    "Pidgin": "You no fit use 'new' with this thing wey no fit be called or constructed.",
+    "SimpleEnglish": "Cannot use 'new' with an expression that cannot be called or constructed."
+  },
+  "Type '{type}' is not a constructor function type.": {
+    "Yoruba": "Iru '{type}' kii ṣe iru iṣẹ ṣiṣe.",
+    "Pidgin": "Type '{type}' no be constructor function.",
+    "SimpleEnglish": "Type '{type}' is not a constructor function."
+  },
+  "Property '{property}' is private and only accessible within class '{class}'.": {
+    "Yoruba": "Ohun-ini '{property}' jẹ ti ara ẹni ati pe o le wọle nikan laarin kilasi '{class}'.",
+    "Pidgin": "Property '{property}' be private, you fit only use am inside class '{class}'.",
+    "SimpleEnglish": "Property '{property}' is private and can only be accessed within class '{class}'."
+  },
+  "Type '{type}' is not generic.": {
+    "Yoruba": "Iru '{type}' kii ṣe iru ti o ni oriṣiriṣi.",
+    "Pidgin": "Type '{type}' no be generic type.",
+    "SimpleEnglish": "Type '{type}' is not a generic type."
+  },
+  "Type '{type}' does not satisfy the constraint '{constraint}'.": {
+    "Yoruba": "Iru '{type}' ko baamu iṣeduro '{constraint}'.",
+    "Pidgin": "Type '{type}' no match the constraint '{constraint}'.",
+    "SimpleEnglish": "Type '{type}' does not satisfy the constraint '{constraint}'."
+  },
+  "Cannot invoke an object which is possibly 'undefined'.": {
+    "Yoruba": "A ko le pe ohun ti o le jẹ 'undefined'.",
+    "Pidgin": "You no fit call this thing wey fit be 'undefined'.",
+    "SimpleEnglish": "Cannot call an object that might be 'undefined'."
+  },
+  "Type '{type}' is not a function.": {
+    "Yoruba": "Iru '{type}' kii ṣe iṣẹ.",
+    "Pidgin": "Type '{type}' no be function.",
+    "SimpleEnglish": "Type '{type}' is not a function."
+  },
+  "Cannot use 'this' in a static context.": {
+    "Yoruba": "A ko le lo 'this' ni ipo ti ko ni ibatan.",
+    "Pidgin": "You no fit use 'this' for static context.",
+    "SimpleEnglish": "Cannot use 'this' in a static context."
+  },
+  "Type '{type}' is not iterable.": {
+    "Yoruba": "Iru '{type}' ko le ṣe atẹwọ.",
+    "Pidgin": "Type '{type}' no fit iterate.",
+    "SimpleEnglish": "Type '{type}' is not iterable."
+  },
+  "Cannot use 'super' in a static context.": {
+    "Yoruba": "A ko le lo 'super' ni ipo ti ko ni ibatan.",
+    "Pidgin": "You no fit use 'super' for static context.",
+    "SimpleEnglish": "Cannot use 'super' in a static context."
+  },
+  "Type '{type}' is not a valid async function return type.": {
+    "Yoruba": "Iru '{type}' kii ṣe iru ti o wulo fun iṣẹ async.",
+    "Pidgin": "Type '{type}' no be valid return type for async function.",
+    "SimpleEnglish": "Type '{type}' is not a valid async function return type."
+  },
+  "Cannot use 'await' outside of an async function.": {
+    "Yoruba": "A ko le lo 'await' ni ita iṣẹ async.",
+    "Pidgin": "You no fit use 'await' outside async function.",
+    "SimpleEnglish": "Cannot use 'await' outside of an async function."
+  },
+  "Type '{type}' is not a valid promise.": {
+    "Yoruba": "Iru '{type}' kii ṣe promise ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid promise.",
+    "SimpleEnglish": "Type '{type}' is not a valid promise."
+  },
+  "Cannot use 'yield' outside of a generator function.": {
+    "Yoruba": "A ko le lo 'yield' ni ita iṣẹ generator.",
+    "Pidgin": "You no fit use 'yield' outside generator function.",
+    "SimpleEnglish": "Cannot use 'yield' outside of a generator function."
+  },
+  "Type '{type}' is not a valid generator.": {
+    "Yoruba": "Iru '{type}' kii ṣe generator ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid generator.",
+    "SimpleEnglish": "Type '{type}' is not a valid generator."
+  },
+  "Cannot use 'delete' on a non-configurable property.": {
+    "Yoruba": "A ko le lo 'delete' lori ohun-ini ti ko ni iṣeto.",
+    "Pidgin": "You no fit use 'delete' on property wey no fit configure.",
+    "SimpleEnglish": "Cannot use 'delete' on a non-configurable property."
+  },
+  "Type '{type}' is not a valid enum.": {
+    "Yoruba": "Iru '{type}' kii ṣe enum ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid enum.",
+    "SimpleEnglish": "Type '{type}' is not a valid enum."
+  },
+  "Cannot use 'in' operator on type '{type}'.": {
+    "Yoruba": "A ko le lo oniṣẹ 'in' lori iru '{type}'.",
+    "Pidgin": "You no fit use 'in' operator for type '{type}'.",
+    "SimpleEnglish": "Cannot use 'in' operator on type '{type}'."
+  },
+  "Type '{type}' is not a valid union type.": {
+    "Yoruba": "Iru '{type}' kii ṣe union type ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid union type.",
+    "SimpleEnglish": "Type '{type}' is not a valid union type."
+  },
+  "Cannot use 'instanceof' with a non-object type.": {
+    "Yoruba": "A ko le lo 'instanceof' pẹlu iru ti ko jẹ ohun.",
+    "Pidgin": "You no fit use 'instanceof' with type wey no be object.",
+    "SimpleEnglish": "Cannot use 'instanceof' with a non-object type."
+  },
+  "Type '{type}' is not a valid intersection type.": {
+    "Yoruba": "Iru '{type}' kii ṣe intersection type ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid intersection type.",
+    "SimpleEnglish": "Type '{type}' is not a valid intersection type."
+  },
+  "Cannot use 'typeof' with a non-primitive type.": {
+    "Yoruba": "A ko le lo 'typeof' pẹlu iru ti ko jẹ primitive.",
+    "Pidgin": "You no fit use 'typeof' with type wey no be primitive.",
+    "SimpleEnglish": "Cannot use 'typeof' with a non-primitive type."
+  },
+  "Type '{type}' is not a valid tuple.": {
+    "Yoruba": "Iru '{type}' kii ṣe tuple ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid tuple.",
+    "SimpleEnglish": "Type '{type}' is not a valid tuple."
+  },
+  "Cannot use 'as' type assertion with a non-compatible type.": {
+    "Yoruba": "A ko le lo 'as' type assertion pẹlu iru ti ko baamu.",
+    "Pidgin": "You no fit use 'as' type assertion with type wey no match.",
+    "SimpleEnglish": "Cannot use 'as' type assertion with a non-compatible type."
+  },
+  "Type '{type}' is not a valid mapped type.": {
+    "Yoruba": "Iru '{type}' kii ṣe mapped type ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid mapped type.",
+    "SimpleEnglish": "Type '{type}' is not a valid mapped type."
+  },
+  "Cannot use 'keyof' with a non-object type.": {
+    "Yoruba": "A ko le lo 'keyof' pẹlu iru ti ko jẹ ohun.",
+    "Pidgin": "You no fit use 'keyof' with type wey no be object.",
+    "SimpleEnglish": "Cannot use 'keyof' with a non-object type."
+  },
+  "Type '{type}' is not a valid conditional type.": {
+    "Yoruba": "Iru '{type}' kii ṣe conditional type ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid conditional type.",
+    "SimpleEnglish": "Type '{type}' is not a valid conditional type."
+  },
+  "Cannot use 'import' outside of a module.": {
+    "Yoruba": "A ko le lo 'import' ni ita module.",
+    "Pidgin": "You no fit use 'import' outside module.",
+    "SimpleEnglish": "Cannot use 'import' outside of a module."
+  },
+  "Cannot use 'export' outside of a module.": {
+    "Yoruba": "A ko le lo 'export' ni ita module.",
+    "Pidgin": "You no fit use 'export' outside module.",
+    "SimpleEnglish": "Cannot use 'export' outside of a module."
+  },
+  "Type '{type}' is not a valid class.": {
+    "Yoruba": "Iru '{type}' kii ṣe kilasi ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid class.",
+    "SimpleEnglish": "Type '{type}' is not a valid class."
+  },
+  "Cannot extend a class with a non-class type.": {
+    "Yoruba": "A ko le fa kilasi kan pẹlu iru ti ko jẹ kilasi.",
+    "Pidgin": "You no fit extend class with type wey no be class.",
+    "SimpleEnglish": "Cannot extend a class with a non-class type."
+  },
+  "Cannot implement an interface with a non-class type.": {
+    "Yoruba": "A ko le ṣe atilẹyin interface pẹlu iru ti ko jẹ kilasi.",
+    "Pidgin": "You no fit implement interface with type wey no be class.",
+    "SimpleEnglish": "Cannot implement an interface with a non-class type."
+  },
+  "Type '{type}' is not a valid interface.": {
+    "Yoruba": "Iru '{type}' kii ṣe interface ti o wulo.",
+    "Pidgin": "Type '{type}' no be valid interface.",
+    "SimpleEnglish": "Type '{type}' is not a valid interface."
+  },
+  "Cannot use 'abstract' modifier on a non-class type.": {
+    "Yoruba": "A ko le lo 'abstract' modifier lori iru ti ko jẹ kilasi.",
+    "Pidgin": "You no fit use 'abstract' modifier for type wey no be class.",
+    "SimpleEnglish": "Cannot use 'abstract' modifier on a non-class type."
+  },
+  "Cannot use 'private' modifier on a non-class member.": {
+    "Yoruba": "A ko le lo 'private' modifier lori ohun ti ko jẹ ẹya kilasi.",
+    "Pidgin": "You no fit use 'private' modifier for thing wey no be class member.",
+    "SimpleEnglish": "Cannot use 'private' modifier on a non-class member."
+  },
+  "Cannot use 'protected' modifier on a non-class member.": {
+    "Yoruba": "A ko le lo 'protected' modifier lori ohun ti ko jẹ ẹya kilasi.",
+    "Pidgin": "You no fit use 'protected' modifier for thing wey no be class member.",
+    "SimpleEnglish": "Cannot use 'protected' modifier on a non-class member."
+  },
+  "Cannot use 'readonly' modifier on a non-property.": {
+    "Yoruba": "A ko le lo 'readonly' modifier lori ohun ti ko jẹ ohun-ini.",
+    "Pidgin": "You no fit use 'readonly' modifier for thing wey no be property.",
+    "SimpleEnglish": "Cannot use 'readonly' modifier on a non-property."
+  },
+  "Cannot use 'static' modifier on a non-class member.": {
+    "Yoruba": "A ko le lo 'static' modifier lori ohun ti ko jẹ ẹya kilasi.",
+    "Pidgin": "You no fit use 'static' modifier for thing wey no be class member.",
+    "SimpleEnglish": "Cannot use 'static' modifier on a non-class member."
+  },
+  "Cannot use 'override' modifier on a non-class member.": {
+    "Yoruba": "A ko le lo 'override' modifier lori ohun ti ko jẹ ẹya kilasi.",
+    "Pidgin": "You no fit use 'override' modifier for thing wey no be class member.",
+    "SimpleEnglish": "Cannot use 'override' modifier on a non-class member."
+  },
+  "Cannot use 'decorator' on a non-class member.": {
+    "Yoruba": "A ko le lo 'decorator' lori ohun ti ko jẹ ẹya kilasi.",
+    "Pidgin": "You no fit use 'decorator' for thing wey no be class member.",
+    "SimpleEnglish": "Cannot use 'decorator' on a non-class member."
+  },
+  "Cannot use 'namespace' with a non-module type.": {
+    "Yoruba": "A ko le lo 'namespace' pẹlu iru ti ko jẹ module.",
+    "Pidgin": "You no fit use 'namespace' with type wey no be module.",
+    "SimpleEnglish": "Cannot use 'namespace' with a non-module type."
+  },
+  "Cannot use 'module' with a non-namespace type.": {
+    "Yoruba": "A ko le lo 'module' pẹlu iru ti ko jẹ namespace.",
+    "Pidgin": "You no fit use 'module' with type wey no be namespace.",
+    "SimpleEnglish": "Cannot use 'module' with a non-namespace type."
+  },
+  "Cannot use 'require' with a non-string type.": {
+    "Yoruba": "A ko le lo 'require' pẹlu iru ti ko jẹ ọrọ.",
+    "Pidgin": "You no fit use 'require' with type wey no be string.",
+    "SimpleEnglish": "Cannot use 'require' with a non-string type."
+  },
+  "Cannot use 'import' with a non-string type.": {
+    "Yoruba": "A ko le lo 'import' pẹlu iru ti ko jẹ ọrọ.",
+    "Pidgin": "You no fit use 'import' with type wey no be string.",
+    "SimpleEnglish": "Cannot use 'import' with a non-string type."
+  },
+  "Cannot use 'export' with a non-string type.": {
+    "Yoruba": "A ko le lo 'export' pẹlu iru ti ko jẹ ọrọ.",
+    "Pidgin": "You no fit use 'export' with type wey no be string.",
+    "SimpleEnglish": "Cannot use 'export' with a non-string type."
+  },
+  "Cannot use 'default' with a non-exported type.": {
+    "Yoruba": "A ko le lo 'default' pẹlu iru ti ko jẹ atẹjade.",
+    "Pidgin": "You no fit use 'default' with type wey no be exported.",
+    "SimpleEnglish": "Cannot use 'default' with a non-exported type."
+  },
+  "Cannot use 'from' with a non-string type.": {
+    "Yoruba": "A ko le lo 'from' pẹlu iru ti ko jẹ ọrọ.",
+    "Pidgin": "You no fit use 'from' with type wey no be string.",
+    "SimpleEnglish": "Cannot use 'from' with a non-string type."
+  },
+  "Cannot use 'as' with a non-string type.": {
+    "Yoruba": "A ko le lo 'as' pẹlu iru ti ko jẹ ọrọ.",
+    "Pidgin": "You no fit use 'as' with type wey no be string.",
+    "SimpleEnglish": "Cannot use 'as' with a non-string type."
+  },
+  "Cannot use 'in' with a non-object type.": {
+    "Yoruba": "A ko le lo 'in' pẹlu iru ti ko jẹ ohun.",
+    "Pidgin": "You no fit use 'in' with type wey no be object.",
+    "SimpleEnglish": "Cannot use 'in' with a non-object type."
+  },
+  "Cannot use 'delete' with a non-object type.": {
+    "Yoruba": "A ko le lo 'delete' pẹlu iru ti ko jẹ ohun.",
+    "Pidgin": "You no fit use 'delete' with type wey no be object.",
+    "SimpleEnglish": "Cannot use 'delete' with a non-object type."
+  },
+  "Cannot use 'new' with a non-constructor type.": {
+    "Yoruba": "A ko le lo 'new' pẹlu iru ti ko jẹ constructor.",
+    "Pidgin": "You no fit use 'new' with type wey no be constructor.",
+    "SimpleEnglish": "Cannot use 'new' with a non-constructor type."
+  },
+  "Cannot use 'super' with a non-constructor type.": {
+    "Yoruba": "A ko le lo 'super' pẹlu iru ti ko jẹ constructor.",
+    "Pidgin": "You no fit use 'super' with type wey no be constructor.",
+    "SimpleEnglish": "Cannot use 'super' with a non-constructor type."
+  },
+  "Cannot use 'this' with a non-class type.": {
+    "Yoruba": "A ko le lo 'this' pẹlu iru ti ko jẹ kilasi.",
+    "Pidgin": "You no fit use 'this' with type wey no be class.",
+    "SimpleEnglish": "Cannot use 'this' with a non-class type."
   }
 }
