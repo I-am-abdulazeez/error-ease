@@ -2,7 +2,7 @@
   "name": "error-ease",
   "displayName": "Error Ease",
   "description": "ErrorEase is a Visual Studio Code extension that simplifies debugging by translating complex error messages into user-friendly explanations in your preferred language, including Yoruba, Pidgin English, and Simple English. Empowering developers to debug confidently with clear and relatable feedback.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "AbdulAzeez",
   "license": "MIT",
   "engines": {
