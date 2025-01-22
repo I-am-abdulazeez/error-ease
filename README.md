@@ -16,19 +16,19 @@ Error Ease is a VS Code extension designed to simplify error messages by transla
 **Original Error:**
 
 ```
-Expected 2 arguments, but got 3.
+> Expected 2 arguments, but got 3.
 ```
 
 **Translated (Pidgin):**
 
 ```
-Dem dey expect 2 argument, but you give 3.
+> Dem dey expect 2 argument, but you give 3.
 ```
 
 **Translated (Yoruba):**
 
 ```
-A reti 2 awọn ọrọ, ṣugbọn o gba 3.
+> A reti 2 awọn ọrọ, ṣugbọn o gba 3.
 ```
 
 ![Error Translation Example](images/example.png)
