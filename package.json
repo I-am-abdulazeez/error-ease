@@ -34,7 +34,23 @@
           "TypeScript"
         ]
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "ErrorEase Settings",
+      "properties": {
+        "errorEase.language": {
+          "type": "string",
+          "default": "SimpleEnglish",
+          "enum": [
+            "SimpleEnglish",
+            "Pidgin",
+            "Yoruba"
+          ],
+          "description": "Select the preferred language for ErrorEase translations."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
