@@ -25,6 +25,12 @@ Expected 2 arguments, but got 3.
 Dem dey expect 2 argument, but you give 3.
 ```
 
+**Translated (Yoruba):**
+
+```
+A reti 2 awọn ọrọ, ṣugbọn o gba 3.
+```
+
 ![Error Translation Example](images/example.png)
 
 ---
