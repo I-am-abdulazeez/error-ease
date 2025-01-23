@@ -89,5 +89,8 @@
     "npm-run-all": "^4.1.5",
     "typescript": "^5.7.2",
     "vscode-test": "^1.6.1"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^8.5.0"
   }
 }
