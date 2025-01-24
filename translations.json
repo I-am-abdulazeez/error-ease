@@ -9377,11 +9377,6 @@
     "Pidgin": "We no fit find module '{module}' or the type declarations wey follow am.",
     "SimpleEnglish": "Cannot find module '{module}' or its corresponding type declarations."
   },
-  "Unexpected token '{token}'": {
-    "Yoruba": "Aṣiṣe naa sọ pé token '{token}' ko yẹ ki o wa nibi.",
-    "Pidgin": "Syntax error! Token '{token}' no suppose dey here.",
-    "SimpleEnglish": "Unexpected token '{token}'."
-  },
   "Cannot assign to '{variable}' because it is a constant": {
     "Yoruba": "O ko le fun '{variable}' ni iye tuntun nitori o jẹ iduro.",
     "Pidgin": "You no fit assign new value to '{variable}' because e be constant, he no fit change again.",
@@ -9796,5 +9791,100 @@
     "Yoruba": "A ko le lo 'this' pẹlu iru ti ko jẹ kilasi.",
     "Pidgin": "You no fit use 'this' with type wey no be class.",
     "SimpleEnglish": "Cannot use 'this' with a non-class type."
+  },
+  "Unexpected keyword or identifier.": {
+    "Yoruba": "Aṣẹ tabi idanimọ ti a ko riro.",
+    "Pidgin": "Keyword or identifier wey no suppose dey here.",
+    "SimpleEnglish": "A word or name that shouldn’t be here."
+  },
+  "Unexpected token '{'": {
+    "Yoruba": "Aami '{' ti a ko riro.",
+    "Pidgin": "Token '{' wey no suppose dey here.",
+    "SimpleEnglish": "A symbol '{' that shouldn’t be here."
+  },
+  "Cannot read property '{0}' of undefined": {
+    "Yoruba": "Ko le ka ohun-ini '{0}' ti aimọ asọye.",
+    "Pidgin": "You no fit read property '{0}' of undefined.",
+    "SimpleEnglish": "Cannot read property '{0}' of something that doesn’t exist."
+  },
+  "Missing semicolon": {
+    "Yoruba": "A ko ri semicolon kan.",
+    "Pidgin": "Semicolon no dey where e suppose dey.",
+    "SimpleEnglish": "A semicolon is missing where it should be."
+  },
+  "Function is not defined": {
+    "Yoruba": "Iṣẹ naa ko ti wa ni asọye.",
+    "Pidgin": "Function no dey defined.",
+    "SimpleEnglish": "The function hasn’t been defined."
+  },
+  "Unexpected end of input": {
+    "Yoruba": "Ipari igbewọle ti a ko riro.",
+    "Pidgin": "Input don end for where e no suppose end.",
+    "SimpleEnglish": "The code ended where it shouldn’t have."
+  },
+  "Identifier '{0}' has already been declared": {
+    "Yoruba": "Idanimọ '{0}' ti wa ni ikede tẹlẹ.",
+    "Pidgin": "Identifier '{0}' don dey declared before.",
+    "SimpleEnglish": "The name '{0}' has already been used."
+  },
+  "Expected ')'": {
+    "Yoruba": "A nireti ')'.",
+    "Pidgin": "Dem expect say ')' go dey here.",
+    "SimpleEnglish": "A closing ')' is missing."
+  },
+  "Assignment to constant variable": {
+    "Yoruba": "A ko le ṣe atunto si oniyipada ti a fi pamọ.",
+    "Pidgin": "You no fit assign new value to constant variable.",
+    "SimpleEnglish": "Cannot change the value of a constant variable."
+  },
+  "Uncaught TypeError: Cannot read properties of null": {
+    "Yoruba": "A ko le ka awọn ohun-ini ti null.",
+    "Pidgin": "You no fit read properties of null.",
+    "SimpleEnglish": "Cannot read properties of something that is null."
+  },
+  "Uncaught ReferenceError: '{0}' is not defined": {
+    "Yoruba": "A ko ri idanimọ '{0}'.",
+    "Pidgin": "'{0}' no dey defined.",
+    "SimpleEnglish": "The name '{0}' hasn’t been defined."
+  },
+  "Uncaught SyntaxError: Invalid or unexpected token": {
+    "Yoruba": "Aami ti ko wulo tabi ti a ko riro.",
+    "Pidgin": "Token wey no correct or no suppose dey here.",
+    "SimpleEnglish": "A symbol that is invalid or shouldn’t be here."
+  },
+  "Uncaught RangeError: Maximum call stack size exceeded": {
+    "Yoruba": "Iye ipe ti koja iye ti a fi pamọ.",
+    "Pidgin": "Call stack don pass wetin e fit carry.",
+    "SimpleEnglish": "Too many function calls, the limit is exceeded."
+  },
+  "Uncaught TypeError: '{0}' is not a function": {
+    "Yoruba": "'{0}' kii ṣe iṣẹ.",
+    "Pidgin": "'{0}' no be function.",
+    "SimpleEnglish": "'{0}' is not a function."
+  },
+  "Uncaught TypeError: Cannot set property '{0}' of undefined": {
+    "Yoruba": "Ko le ṣeto ohun-ini '{0}' ti aimọ asọye.",
+    "Pidgin": "You no fit set property '{0}' of undefined.",
+    "SimpleEnglish": "Cannot set property '{0}' of something that doesn’t exist."
+  },
+  "Uncaught SyntaxError: Unexpected identifier": {
+    "Yoruba": "Idanimọ ti a ko riro.",
+    "Pidgin": "Identifier wey no suppose dey here.",
+    "SimpleEnglish": "A name that shouldn’t be here."
+  },
+  "Invalid left-hand side in assignment": {
+    "Yoruba": "Apá osi ti ko wulo ninu atunto.",
+    "Pidgin": "Left-hand side for assignment no correct.",
+    "SimpleEnglish": "The left-hand side of the assignment is invalid."
+  },
+  "Unexpected token '{token}' in JSON at position {0}": {
+    "Yoruba": "Aami '{token}' ti a ko riro ni JSON ni ipo {0}.",
+    "Pidgin": "Token '{token}' wey no suppose dey here for JSON at position {0}.",
+    "SimpleEnglish": "A symbol '{token}' that shouldn’t be here in JSON at position {0}."
+  },
+  "Unexpected token '{token}' in async function": {
+    "Yoruba": "Aami '{token}' ti a ko riro ni iṣẹ async.",
+    "Pidgin": "Token '{token}' wey no suppose dey here for async function.",
+    "SimpleEnglish": "A symbol '{token}' that shouldn’t be here in the async function."
   }
 }
