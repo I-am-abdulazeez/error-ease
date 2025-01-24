@@ -13,7 +13,7 @@ Error Ease is a VS Code extension designed to simplify error messages by transla
 - **Hover Integration**: Automatically displays translated error messages when hovering over an error.
 - **Customizable Settings**: Users can select their preferred language in the extension settings.
 
-### Example
+### 🔥 Example
 
 **Original Error:**
 
@@ -89,6 +89,14 @@ To update the setting:
 This extension adheres to the VS Code [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines).
 
 ---
+
+#### 💬 Feedback & Contributions
+
+Your feedback matters! Let me know how I can make Error Ease even better.
+
+#### ❤️ Credits
+
+Special thanks to everyone who inspired me to create this. Together, we’re making coding more accessible for all.
 
 ## For more information
 
