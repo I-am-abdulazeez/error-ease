@@ -4,6 +4,8 @@ Error Ease is a VS Code extension designed to simplify error messages by transla
 
 ---
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/AbdulAzeez.error-ease)](https://marketplace.visualstudio.com/items?itemName=AbdulAzeez.error-ease)
+
 ## Features
 
 - **Simplified Error Messages**: Converts cryptic JavaScript/TypeScript error messages into clear, understandable language.
