@@ -5,3 +5,4 @@ node_modules
 *.vsix
 /stuffs
 /.github
+vsc-extension-quickstart.md
