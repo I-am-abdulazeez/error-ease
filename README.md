@@ -31,7 +31,7 @@ Error Ease is a VS Code extension designed to simplify error messages by transla
 > A reti 2 awọn ọrọ, ṣugbọn o gba 3.
 ```
 
-![Error Translation Example](images/example.png)
+![Error Translation Example](images/demo_1.png)
 
 ---
 
